@@ -45,7 +45,11 @@
       flex-direction: column;
     }
     .form a{
-      /* prueba de que aqui me quede */
+      color: var(--hospital-green);
+      font-size: var(--sm);
+      text-align: center;
+      text-decoration: none;
+      margin-bottom: 52px;
     }
     .label{
       font-size: var(--sm);
@@ -61,11 +65,25 @@
       padding: 6px;
       margin-bottom: 12px;
     }
+    .input-email{
+      margin-bottom: 22px;
+    }
     .primary-button{
       background-color: var(--hospital-green);
       border-radius: 8px;
       border: none;
       color: var(--white);
+      width: 100%;
+      cursor: pointer;
+      font-size: var(--md);
+      font-weight: bold;
+      height: 48px;
+    }
+    .secondary-button{
+      background-color: rgb(235, 235, 235);
+      border-radius: 8px;
+      border: 1px solid  var(--hospital-green);
+      color: var(--hospital-green);
       width: 100%;
       cursor: pointer;
       font-size: var(--md);
@@ -80,6 +98,12 @@
       .logo{
         display: block;
       }
+      .secondary-button {
+        width: 300px;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 24px;
+    }
     }
   </style>
 </head>
